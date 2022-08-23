@@ -1,0 +1,33 @@
+.mainWrapper {
+    background: #d9a58f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textContainer {
+    height: 40%;
+    width: 30%;
+    background-color: #8da4ab;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.avatarContainer {
+    background-color: #8da4ab;
+    height: 100%;
+    width: 30%;
+}

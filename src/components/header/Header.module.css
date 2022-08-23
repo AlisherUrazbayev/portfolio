@@ -1,0 +1,17 @@
+.main {
+    background-color: #70d7f5;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navMenu {
+    border: 1px solid black;
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 270px;
+    align-items: center;
+
+}
