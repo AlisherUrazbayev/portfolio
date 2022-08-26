@@ -1,10 +1,19 @@
 import React from 'react';
 import style from './Skills.module.css';
+import Skill from "./Skill";
 
-const Skills = () => {
+const Skills = (props) => {
+
     return (
         <div className={style.mainWrapper}>
-
+            <div className={style.container}>
+                <div className={style.header}><h3>My skills</h3></div>
+                <div className={style.skillsContainer}>
+                    {props.skills.map((skill) => {
+                        return <Skill key={skill.id} skill={skill.name} skillDescription={skill.description}/>
+                    })}
+                </div>
+            </div>
         </div>
     );
 };
