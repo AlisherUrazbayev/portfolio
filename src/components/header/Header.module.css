@@ -28,7 +28,7 @@
     text-transform: uppercase;
     font-size: 15px;
     color: #fff;
-    transition: padding .5s ease-in-out;
+    transition: .5s;
     font-weight: 600;
 }
 
