@@ -10,7 +10,9 @@ const Skills = (props) => {
                 <div className={style.header}><h3>My skills</h3></div>
                 <div className={style.skillsContainer}>
                     {props.skills.map((skill) => {
-                        return <Skill key={skill.id} skill={skill.name} skillDescription={skill.description}/>
+                        return <Skill key={skill.id} skill={skill.name}
+                                      skillDescription={skill.description}
+                                      icon={skill.icon}/>
                     })}
                 </div>
             </div>
