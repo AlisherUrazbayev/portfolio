@@ -10,15 +10,10 @@ import Footer from "./components/footer/Footer";
 function App() {
 
     const [skills, setSkills] = useState([
-        {id: 1, name: "React", description: "lorem descrotr fdfdsn trtfsdsasasasasasasasasa"},
-        {id: 2, name: "JavaScript", description: "lorem descrotr fdfdsn trtfsd"},
-        {id: 3, name: "HTML/CSS", description: "lorem descrotr fdfdsn trtfsd"},
-        {id: 4, name: "HTML/CSS", description: "lorem descrotr fdfdsn trtfsd"},
-        {id: 5, name: "HTML/CSS", description: "lorem descrotr fdfdsn trtfsd"},
-        {id: 6, name: "HTML/CSS", description: "lorem descrotr fdfdsn trtfsd"},
-        {id: 7, name: "HTML/CSS", description: "lorem descrotr fdfdsn trtfsd"},
-        {id: 8, name: "HTML/CSS", description: "lorem descrotr fdfdsn trtfsd"},
-
+        {id: 1, name: "React", description: "lorem descrotr fdfdsn trtfsdsasasasa", icon: "images/react.png"},
+        {id: 1, name: "JavaScript", description: "lorem descrotr fdfdsn trtfsdsasasasa", icon: "images/javascript.png"},
+        {id: 1, name: "HTML", description: "lorem descrotr fdfdsn trtfsdsasasasa", icon: "images/html5.png"},
+        {id: 1, name: "CSS", description: "lorem descrotr fdfdsn trtfsdsasasasa", icon: "images/css3.png"},
     ]);
 
     const [projects, setProjects] = useState([
