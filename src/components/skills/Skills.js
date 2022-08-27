@@ -5,7 +5,7 @@ import Skill from "./Skill";
 const Skills = (props) => {
 
     return (
-        <div className={style.mainWrapper}>
+        <div id="skillsSection" className={style.mainWrapper}>
             <div className={style.container}>
                 <div className={style.header}><h3>My skills</h3></div>
                 <div className={style.skillsContainer}>

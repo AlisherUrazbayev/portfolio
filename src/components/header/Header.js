@@ -5,10 +5,10 @@ const Header = () => {
     return (
         <div className={style.main}>
             <div className={style.navMenu}>
-                <a href="#">Profile</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact me</a>
+                <a href="#profileSection">Profile</a>
+                <a href="#skillsSection">Skills</a>
+                <a href="#projectSection">Projects</a>
+                <a href="#contactSection">Contact me</a>
             </div>
         </div>
     );

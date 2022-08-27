@@ -1,5 +1,8 @@
 .mainWrapper {
-    background: #d9a58f;
+    background-image: url("./../../images/greetingsBackground.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
     min-height: 100vh;
     display: flex;
     justify-content: center;

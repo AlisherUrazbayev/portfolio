@@ -4,7 +4,7 @@ import Project from "./Project";
 
 const Projects = (props) => {
     return (
-        <div className={style.mainWrapper}>
+        <div id="projectSection"  className={style.mainWrapper}>
             <div className={style.container}>
                 <div className={style.header}><h3>My projects</h3></div>
                 <div className={style.projects}>

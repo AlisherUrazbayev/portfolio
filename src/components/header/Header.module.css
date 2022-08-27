@@ -1,5 +1,5 @@
 .main {
-    background-color: #70d7f5;
+    background-color: #5b43d6;
     height: 80px;
     width: 100%;
     display: flex;
@@ -22,3 +22,20 @@
     gap: 10px;
     margin-right: 15%;
 }
+
+.navMenu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    transition: padding .5s ease-in-out;
+    font-weight: 600;
+}
+
+.navMenu a:hover {
+    color: gold;
+}
+
+html{scroll-behavior:smooth}
+
+

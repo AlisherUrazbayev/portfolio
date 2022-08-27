@@ -4,7 +4,7 @@ import style from './Greetings.module.css';
 const Greetings = () => {
 
     return (
-        <div className={style.mainWrapper}>
+        <div id="profileSection" className={style.mainWrapper}>
             <div className={style.container}>
                 <div className={style.textContainer}>
                     <p>Hello</p>
