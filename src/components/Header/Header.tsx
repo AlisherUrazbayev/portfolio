@@ -1,15 +1,15 @@
+import Logo from "../Logo/Logo";
 import Nav from "../Nav/Nav";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 function Header() {
   return (
     <>
-      <div></div>
-      <img src="" alt="" />
-      <div>
-        <h2>Alisher Urazbayev</h2>
-        <p>I got reprogrammed by a rogue AI and now I'm totally cray</p>
-      </div>
-      <Nav />
+      <header className="shadow-md flex justify-between min-h-[10vh]">
+        <Logo />
+        <Nav />
+        <SocialLinks />
+      </header>
     </>
   );
 }

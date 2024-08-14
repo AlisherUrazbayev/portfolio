@@ -8,8 +8,8 @@ function Main() {
     <>
       <main>
         <About />
-        <Skills />
         <Projects />
+        <Skills />
         <ContactForm />
       </main>
     </>
