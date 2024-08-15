@@ -13,6 +13,7 @@ function Projects() {
         <ul className="min-h-[500px] flex justify-center gap-36 flex-wrap">
           <Project coverImage="./image 1.png" />
           <Project coverImage="./image 1.png" />
+          <Project coverImage="./image 1.png" />
         </ul>
       </section>
     </>
